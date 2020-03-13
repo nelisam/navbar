@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
-header, 
+/* header, 
 section,
 aside, 
 footer {
     margin:0 1% 10px 1%;
     padding: 20 px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 *{
@@ -33,10 +34,13 @@ footer {
         background-color:red;
 }
 
-header {
-    background-color: #36414c;
-}
+.footer a {
+    align-items: center;
 
+} */
+
+
+/* 
 img {
     padding: 10px;
 }
@@ -44,13 +48,120 @@ img {
 div {
     float: right;
     padding: 25px;
-    /* margin: auto; */
+    margin: auto; 
     
+} */
+
+
+/* ----------------------------------------header-----------------------------------------*/
+header {
+    background-color: #36414c;
 }
+
+/* ----------------------------------------nav--------------------------------------------*/
 
 a {
     padding: 24px 58px 26px 0;
     color: #cfd8dd;
-    font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
+} 
+
+a:hover {
+  text-decoration: underline;
+  color: dodgerblue;
 }
+
+a.active {
+  text-decoration: underline;
+  color: white;
+}
+
+/* ----------------------------------------section----------------------------------------*/
+.home {
+    text-align: center;
+}
+/* ----------------------------------------article----------------------------------------*/
+/* ----------------------------------------aside------------------------------------------*/
+
+
+
+/* ----------------------------------------footer-----------------------------------------*/
+.upper-footer {
+        padding: 80px;
+        font-family: "Titillium";
+        font-weight: normal;
+        font-style: normal;
+        color: white;
+        font-size: 14px;
+        line-height: 1.1;
+        background-color:#343d42;
+}
+
+.upper-footer h6 {
+    color: #5b9de3;
+}
+
+.upper-footer ul {
+    list-style-type: none;
+}
+
+.upper-footer a {
+    color: white;
+}
+
+.lower-footer {
+    background-color: #000000;
+    color: floralwhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    float: left;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #36414c;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: #cfd8dd;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    float: right;
+} */

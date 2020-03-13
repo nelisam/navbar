@@ -10,27 +10,168 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <body>
-        <body>
-            <header>
-                <img src="images/maven_academy.png" alt="images">
 
-                <div>
+    <!--
+        <nav>
+            <div class="logo">
+                <img src="images/maven_academy.png" alt="images">               
+            </div>
+            <ul class="nav-links">
+                <li>
                     <a href="Home">Home</a>
+                </li>
+                <li>
                     <a href="Why_Us">Course</a>
+                </li>
+                <li>
                     <a href="ContactUs">Contact Us</a>
+                </li>
+                <li>
                     <a href="Cart">Cart</a>
-                    <button>Cart</button>
-                </div>
+                </li>
 
-
-            </header>
+            </ul>
+        </nav>-->
             
-            <section></section>
-            <aside></aside>
+        <header>
+                <nav class="navbar">
+                    <img src="images/maven_academy.png" alt="images">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Course</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                  </ul>
+                </nav>
+        </header>
+
+        <section class = "home">
+            <h1>Next level training in</h1>
+            <img src="images/tech-mavens.png" alt="">
+            <p>Take your tech career to the next level with our immersive software development programmes</p>
+            <button type="button" class="btn btn-primary">Find Out More</button>
+        </section>
+            
+        <section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm  bg-danger">
+                   <h6>Why Maven Academy?</h6> 
+
+                   <p>
+                       We’re disrupting the way you learn new technology by immersing you into real-world work conditions so you can learn what you need to hit the ground running in the top development jobs at the head of the line.
+                    </p>
+
+                   <p>
+                       After two decades of building bespoke software solutions, and from our own hands-on coding experience, we’ve crafted a comprehensive software development curriculum that equips you for today’s complex technical work environments and prepares you for the future with exposure to cutting-edge technology.
+                    </p>
+
+                  </div>
+                  <div class="col-sm  bg-warning">
+                      <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/recent-graduates.svg" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Learn by creating</h5>
+                            <p>
+                                Master the art of code by working on projects that reflect the kind of work you will carry out for future employers and clients.
+                            </p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/recent-graduates.svg" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                        <h5>Expert coaching</h5>
+                            <p>
+                            Adopt the best-practice development techniques with on-demand access to mentors bringing their global tech exposure directly to you. Consistent feedback and mentorship refine your skills until you are comfortable producing efficient, production-grade code without hesitation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/recent-graduates.svg" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Internship Programme</h5>
+                            <p>
+                                Don’t struggle with the job hunt! Hit the ground sprinting with our exclusive platform that allows you to Work, Learn, and Earn at the same time.
+                            </p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div>
+                <p></p>
+            </div>
+        </section>
+        <aside></aside>
         
-            <footer><p>Footer</p></footer>
-        
+        <footer>
+            <div class="row upper-footer">
+                <div class="col-sm">
+                    <h6>GENERAL</h6>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                  <div class="col-sm">
+                    <h6>WHY US</h6>
+                    <ul>
+                        <li><a href="#">Why Study with us ?</a></li>
+                        <li><a href="#">Financial Aid - Study for Just R1</a></li>
+                        <li><a href="#">Internship - Work, Learn & Earn</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm">
+                    <h6>DEVELOPER COURSES</h6>
+                    <ul>
+                        <li><a href="#">Full Stack Web Developer</a></li>
+                        <li><a href="#">Front End Web Fundamentals</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm">
+                    <h6>CONTACT US</h6>
+                    <ul>
+                        <li>Phone</li>
+                        <li><a href="#">+27 21 461 68 17</a></li>
+                        <li>Email</li>
+                        <li><a href="#">hello@themavenacademy.one</a></li>
+                        <li>Location</li>
+                        <li><a href="#">Office F01A, Brookside Office Park, 11 Imam Haron Road, Claremont, Western Cape, 7708</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="row lower-footer">
+                <div class="col-md-7">
+                    <p>All Rights Reserved, Maven Academy (Pty) Ltd.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <p>2 of 2</p>   
+                  </div>
+                </div>
+        </footer>  
+<!-- icon link use later -->
+        <!-- <a href="https://www.instagram.com/themavenacademysa/" target="_blank" class="d-flex justify-content-center">
+            <img src="images/instagram.svg" alt="">
+        </a> -->
     </body>
 </html>
